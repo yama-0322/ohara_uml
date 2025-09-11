@@ -1,5 +1,13 @@
 @startuml
-object 生物
-object 人間
-生物 <-- 人間
+skinparam classAttributeIconSize 0
+class 車 {
+ -メーカー
+ -色
+ -走行距離
+ +走る()
+ +曲がる()
+ +走行距離を増やす()
+ 
+}
+
 @enduml
