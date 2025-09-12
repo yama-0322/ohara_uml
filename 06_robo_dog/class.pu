@@ -1,0 +1,13 @@
+@startuml
+skinparam classAttributeIconSize 0
+class ロボドッグ {
+ -名前
+ -計算
+ -挨拶
+ +挨拶が出来る()
+ +計算ができる()
+ +走行距離を増やす()
+ 
+}
+
+@enduml
