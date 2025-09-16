@@ -1,0 +1,17 @@
+Ctrl + B →エクスプローラーを開いたり閉じたりする
+Ctrl + J →ターミナルを開閉する
+Ctrl + W →ファイルを閉じる
+Ctrl + Shift + J →選択した部分を同時に編集できる
+Ctrl + D →カーソルを置いた部分から以降をDを押しただけ選択できる
+Ctrl + Z →一つ戻る
+Ctrl + Shift + Z →一つ進む
+Ctrl + / →コメントアウト
+
+
+
+
+Ctrl + B
+Ctrl + B
+Ctrl + B
+Ctrl + B
+Ctrl + B
