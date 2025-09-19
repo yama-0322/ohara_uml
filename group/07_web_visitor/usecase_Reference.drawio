@@ -1,32 +1,65 @@
 <mxfile host="65bd71144e">
     <diagram id="5DAc6Cl4n0stvR-f9cc4" name="ページ1">
-        <mxGraphModel dx="574" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="746" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="訪問者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="140" width="30" height="60" as="geometry"/>
+                <mxCell id="22" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="160" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="他の訪問者" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="70" width="330" height="360" as="geometry"/>
+                <mxCell id="23" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="60" width="100" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="ユーザID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
-                    <mxGeometry x="90" y="30" width="120" height="40" as="geometry"/>
+                <mxCell id="24" value="ログインをクリック" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.04;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="23">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="90" y="200" as="sourcePoint"/>
+                        <mxPoint x="170" y="200" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="名前" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
-                    <mxGeometry x="90" y="90" width="120" height="40" as="geometry"/>
+                <mxCell id="25" value="ログイン　完了" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="60" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="学校名" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
-                    <mxGeometry x="90" y="150" width="120" height="40" as="geometry"/>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;exitX=1.027;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="23" target="25">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="220" as="sourcePoint"/>
+                        <mxPoint x="310" y="170" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="所属名" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
-                    <mxGeometry x="90" y="210" width="120" height="40" as="geometry"/>
+                <mxCell id="27" value="他ユーザ　　一覧" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="230" width="100" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="年齢" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="3">
-                    <mxGeometry x="90" y="270" width="120" height="40" as="geometry"/>
+                <mxCell id="28" value="画面遷移" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.695;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.3;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="280" y="180" as="sourcePoint"/>
+                        <mxPoint x="360" y="180" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="学校名" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="560" y="110" width="120" height="40" as="geometry"/>
+                <mxCell id="31" value="ユーザー情報表示" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="370" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="他ユーザー情報の取得" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="250" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="endArrow=classic;html=1;entryX=1.029;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.02;exitY=0.567;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="27" target="32">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="360" as="sourcePoint"/>
+                        <mxPoint x="320" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="" style="endArrow=classic;html=1;entryX=0.667;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.286;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="32" target="31">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="240" y="350" as="sourcePoint"/>
+                        <mxPoint x="290" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1.007;exitY=0.533;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="27" target="42">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="250" as="sourcePoint"/>
+                        <mxPoint x="460" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="他ユーザー" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="230" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

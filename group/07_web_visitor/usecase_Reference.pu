@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor "訪問者" as fc
+rectangle 他の訪問者 {
+  usecase "ユーザID" as UC1
+  usecase "名前" as UC2
+  usecase "学校名" as UC3
+  usecase "所属名" as UC4
+  usecase "年齢" as UC5
+  
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> UC4
+fc --> UC5
+
+@enduml
