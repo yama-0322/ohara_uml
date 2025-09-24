@@ -12,10 +12,10 @@ class RoboDog {
  -2つ目の整数
  -足し算の結果
 
- +getMyName()
- +setMyName()
- +時刻の設定()
- +時刻に応じた挨拶の言葉を取得()
+ +getMyName():String
+ +setMyName(): int
+ +setNewTime():void
+ +getMyGreeting():String
  +2つの整数を設定()
  +足し算結果登録()
  +足し算結果取得()
